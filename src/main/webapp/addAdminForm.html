@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="ISO-8859-1">
+		<title></title>
+		<link rel="stylesheet" href="./content/css/rentOut.css" type="text/css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+<body>
+    
+    <div class="background" id="bookForm">
+    <div class="booking-form">
+        <h2>Add Admin Form</h2>
+        <form action="AddAdminController" method="post">
+            <!-- <label for="platNo">Car Id:</label>
+            <input type="text" name="carID" id="platNo" required> -->
+
+            <label for="user_name">Name:</label>
+            <input type="text" name="user_name" id="user_name" required>
+       
+            <label for="user_password">Password:</label>
+            <input type="password" name="user_password" id="user_password" required>
+       
+            <label for="user_email">Email:</label>
+            <input type="text" name="user_email" id="user_email" required>
+            
+            
+            <input type="hidden" id="role" name="role" value="admin">
+                       
+            
+
+            <button type="submit">Add Admin</button>
+        </form>
+    </div>
+  </div>
+</body>
+</html>
